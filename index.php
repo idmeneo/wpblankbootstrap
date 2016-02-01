@@ -26,8 +26,8 @@
 		   <?php endwhile; ?>
 
 		<?php if (!is_singular()) : ?>
-			<div class="nav-previous alignleft"><?php next_posts_link( 'Article pr&eacute;c&eacute;dent' ); ?></div>
-			<div class="nav-next alignright"><?php previous_posts_link( 'Article suivant' ); ?></div>
+			<div class="nav-previous alignleft"><?php next_posts_link( 'Articles pr&eacute;c&eacute;dents' ); ?></div>
+			<div class="nav-next alignright"><?php previous_posts_link( 'Articles suivants' ); ?></div>
 		<?php endif; ?>
 
 		<?php else : ?>
